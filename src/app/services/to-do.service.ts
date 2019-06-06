@@ -14,4 +14,9 @@ export class ToDoService {
     const lista2 = new Lista('Terminar el examen de FullStack de Turing');
     this.listas.push(lista1, lista2);
   }
+
+  crearLista(titulo: string){
+    const nuevaLista = new Lista(titulo);
+    this.listas.push(nuevaLista);
+  }
 }
