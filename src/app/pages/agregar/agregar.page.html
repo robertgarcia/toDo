@@ -21,7 +21,7 @@
 
     <ion-item-sliding *ngFor="let item of lista.items; let i = index" class="animated fadeInDown">
       <ion-item color="dark">
-        <ion-checkbox slot="start" color="tertiary" [(ngModel)]="item.completado" (ion-change)="cambioCheck(item)"></ion-checkbox>
+        <ion-checkbox slot="start" color="tertiary" [(ngModel)]="item.completado" (ionChange)="cambioCheck(item)"></ion-checkbox>
         <ion-label>{{ item.desc }}</ion-label>
       </ion-item>
       <ion-item-options side="end">
