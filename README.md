@@ -1,5 +1,5 @@
 # toDo
-Aplicación Móvil desarrollada en Angular y Ionic para manejar lista de pendientes
+Aplicación Móvil versión beta desarrollada en Ionic para manejar lista de pendientes
 
 # Requisitos
 - Ionic
